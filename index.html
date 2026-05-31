@@ -1,77 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Southern Haul & Dump LLC</title>
+
 <style>
-body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111111;
+    color:white;
 }
 
-h1 {
-    color: #4CAF50;
+header{
+    text-align:center;
+    padding:40px 20px;
+    background:#1a1a1a;
 }
 
-.phone {
-    font-size: 24px;
-    font-weight: bold;
+header img{
+    width:350px;
+    max-width:90%;
 }
 
-.services {
-    background: #f5f5f5;
-    padding: 15px;
-    border-radius: 8px;
+h1{
+    color:#ccff00;
+    font-size:52px;
+    margin-top:20px;
+    margin-bottom:10px;
 }
+
+.tagline{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.phone{
+    font-size:34px;
+    color:#ccff00;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+.section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.section h2{
+    color:#ccff00;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    background:#1f1f1f;
+    border:2px solid #ccff00;
+    border-radius:20px;
+    width:250px;
+    padding:30px;
+    box-shadow:0 0 15px rgba(204,255,0,0.2);
+}
+
+.card h3{
+    color:#ccff00;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.card p{
+    font-size:18px;
+    line-height:1.5;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    font-size:22px;
+    line-height:1.8;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:50px;
+    font-size:20px;
+    color:#cccccc;
+}
+
 </style>
+
 </head>
 
 <body>
 
+<header>
+
+<img src="logo.png" alt="Southern Haul & Dump Logo">
+
 <h1>Southern Haul & Dump LLC</h1>
 
-<p><strong>We Haul It All Y'all!</strong></p>
+<div class="tagline">
+We Haul It All Y'all
+</div>
 
-<p class="phone">
+<div class="phone">
 Call or Text: 251-270-8987
-</p>
+</div>
+
+</header>
+
+<section class="section">
 
 <h2>Free Estimates</h2>
 
-<p>
-Serving Lower Baldwin County and surrounding communities.
-</p>
+<div class="about">
 
-<div class="services">
+Serving Lower Baldwin County and surrounding communities with reliable hauling, material delivery, junk removal, debris cleanup, and more.
 
-<h2>Material Hauling</h2>
-
-<ul>
-<li>Dirt</li>
-<li>Mulch</li>
-<li>Sand</li>
-<li>Gravel</li>
-<li>Rock</li>
-<li>Construction Materials</li>
-</ul>
-
-<h2>Additional Services</h2>
-
-<ul>
-<li>Junk Removal</li>
-<li>Yard Debris Removal</li>
-<li>Brush Cleanup</li>
-<li>Small Demolition Cleanup</li>
-<li>Construction Debris Removal</li>
-</ul>
+Need something hauled that's not listed? Give us a call or text and we'll let you know if we can help.
 
 </div>
 
+</section>
+
+<section class="section">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Material Delivery</h3>
 <p>
-Need something hauled that's not listed? Call or text us and we'll let you know if we can help.
+Dirt, mulch, sand, gravel, rock, construction materials, and more.
 </p>
+</div>
+
+<div class="card">
+<h3>Debris Hauling</h3>
+<p>
+Construction debris, storm cleanup, brush, and hauling services.
+</p>
+</div>
+
+<div class="card">
+<h3>Property Cleanout</h3>
+<p>
+Property cleanup, yard cleanup, and unwanted item removal.
+</p>
+</div>
+
+<div class="card">
+<h3>Junk Removal</h3>
+<p>
+Fast and reliable junk hauling for homes, jobsites, and businesses.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Southern Haul & Dump LLC<br><br>
+
+251-270-8987
+
+</footer>
 
 </body>
+
 </html>
