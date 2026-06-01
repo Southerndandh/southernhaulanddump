@@ -10,7 +10,42 @@
 <title>Southern Haul & Dump LLC</title>
 
 <style>
+.hero{
+    min-height:85vh;
+    background-image:
+        linear-gradient(to right, rgba(0,0,0,0.78), rgba(0,0,0,0.25)),
+        url("images/hero-banner.png");
+    background-size:cover;
+    background-position:center;
+    padding:30px 20px 80px;
+    position:relative;
+}
 
+.top-logo img{
+    width:180px;
+    max-width:70%;
+    height:auto;
+}
+
+.hero-content{
+    max-width:650px;
+    margin-top:90px;
+    margin-left:40px;
+}
+
+.hero-content h1{
+    color:white;
+    font-size:64px;
+    line-height:1;
+    margin:0 0 20px;
+}
+
+.hero-content p{
+    color:#ccff00;
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
 body{
     margin:0;
     font-family:Arial, sans-serif;
@@ -18,20 +53,11 @@ body{
     color:white;
 }
 
-header{
-    text-align:center;
-    padding:40px 20px;
-    background:#1a1a1a;
-}
-header img{
-    width:300px;
-    max-width:90%;
-    height:auto;
-    display:block;
-    margin:0 auto;
-}
 
-
+    
+    
+    
+    
 h1{
     color:#ccff00;
     font-size:52px;
@@ -126,24 +152,30 @@ footer{
 
 <body>
 
-<header>
+<header class="hero">
 
-<img src="logo.png" alt="Southern Haul & Dump Logo">
-<h1>Southern Haul & Dump LLC</h1>
+  <div class="top-logo">
+    <img src="logo.png" alt="Southern Haul & Dump Logo">
+  </div>
 
-<div class="tagline">
-We Haul It All Y'all
-</div>
+  <div class="hero-content">
 
+    <h1>WE HAUL IT ALL Y'ALL</h1>
 
+    <p>
+      Material Delivery • Cleanouts • Junk Removal
+    </p>
 
+    <div class="phone">
+      Call or Text: 251-270-8987
+    </div>
 
-<div class="phone">
-Call or Text: 251-270-8987
-</div>
-<a href="tel:2512708987" class="cta">
-CALL NOW
-</a>
+    <a href="tel:2512708987" class="cta">
+      CALL NOW
+    </a>
+
+  </div>
+
 </header>
 
 <section class="section">
@@ -160,8 +192,6 @@ We also provide debris hauling, estate cleanouts, yard sale cleanups, garage cle
 Not sure if your project fits one of our listed services? Give us a call or text and we'll be happy to discuss it with you.
 
 Free Estimates Available.
-
-
 
 </div>
 
