@@ -122,8 +122,35 @@
       line-height: 1.7;
       color: #eeeeee;
     }
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  max-width: 1000px;
+  margin: 38px auto 0;
+}
 
-    .services {
+.why-item {
+  background: #1c1c1c;
+  border: 1px solid rgba(204,255,0,0.35);
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.why-item h3 {
+  color: #ccff00;
+  font-size: 22px;
+  margin: 0 0 10px;
+}
+
+.why-item p {
+  color: #dddddd;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+}
+  
+      .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 24px;
@@ -282,7 +309,28 @@
       Serving Lower Baldwin County with dependable material delivery, debris hauling, property cleanouts, junk removal, and storm cleanup services.
     </div>
   </section>
+  <section class="section">
+    <h2>Why Choose Us</h2>
 
+    <div class="why-grid">
+      <div class="why-item">
+        <h3>Reliable Service</h3>
+        <p>We show up when we say we will and keep communication simple from start to finish.</p>
+      </div>
+
+      <div class="why-item">
+        <h3>Fast Turnaround</h3>
+        <p>Whether it is a delivery, cleanout, or debris haul, we work hard to get your project handled quickly.</p>
+      </div>
+
+      <div class="why-item">
+        <h3>Local &amp; Dependable</h3>
+        <p>Locally owned and serving Lower Baldwin County with honest, practical hauling help.</p>
+      </div>
+    </div>
+  </section>
+ 
+  
   <section class="section" id="services">
     <h2>Our Services</h2>
 
