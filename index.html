@@ -149,8 +149,46 @@
   line-height: 1.5;
   margin: 0;
 }
-  
-      .services {
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+}
+
+.example-card {
+  background: #1c1c1c;
+  border: 1px solid rgba(204,255,0,0.35);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.28);
+}
+
+.example-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+
+.example-card h3 {
+  color: #ccff00;
+  font-size: 22px;
+  margin: 18px 18px 8px;
+}
+
+.example-card p {
+  color: #dddddd;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 18px 20px;
+}  
+     
+    
+    
+    .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 24px;
@@ -361,7 +399,41 @@
       </div>
     </div>
   </section>
+  <section class="section" id="examples">
+    <h2>Service Examples</h2>
+    <div class="about">
+      A few examples of the types of hauling, delivery, and cleanup work we can help with.
+    </div>
 
+    <div class="example-grid">
+      <div class="example-card">
+        <img src="images/service-example-mulch-real.png" alt="Mulch delivery service example">
+        <h3>Mulch Delivery</h3>
+        <p>Mulch delivery for landscaping beds, property refreshes, and outdoor projects.</p>
+      </div>
+
+      <div class="example-card">
+        <img src="images/service-example-gravel.png" alt="Gravel delivery service example">
+        <h3>Material Delivery</h3>
+        <p>Gravel, rock, sand, dirt, and other materials delivered where you need them.</p>
+      </div>
+
+      <div class="example-card">
+        <img src="images/service-example-debris.png" alt="Debris hauling service example">
+        <h3>Debris Hauling</h3>
+        <p>Brush, limbs, yard debris, and storm cleanup hauled away safely and efficiently.</p>
+      </div>
+
+      <div class="example-card">
+        <img src="images/service-example-cleanout.png" alt="Property cleanout service example">
+        <h3>Property Cleanouts</h3>
+        <p>Garage, rental, estate, and property cleanout help for unwanted items and debris.</p>
+      </div>
+    </div>
+  </section>
+ 
+  
+  
   <section class="section" id="areas">
     <h2>Proudly Serving Lower Baldwin County</h2>
        <div class="areas">
